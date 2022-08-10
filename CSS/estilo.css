@@ -1,0 +1,475 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+:root {
+    --cor1: #1e1f29;
+    --cor2: #45b8ed;
+    --cor3: #f3f3f3;
+    --cor4: #6092ac;
+}
+
+.body_login {
+    background-color: #1b4659;
+}
+
+/* NavBar da Loja */
+
+.nav_principal {
+    background-color: var(--cor1);
+}
+
+.nav_p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav_p a {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: .4s;
+    border-radius: 6px
+}
+
+.nav_p a:hover {
+    background-color: var(--cor2);;
+}
+
+/* Container 1 */
+
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    background-image: url('../images/pexels-spencer-selover-428340.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.nome_loja {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    padding: 100px 0px 40px 80px;
+}
+
+.texto_loja {
+    font-family: 'Montserrat', sans-serif;
+    color: #249ed6;
+    padding: 40px 10px 40px 80px;
+}
+
+.btn_loja {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 40px 10px 40px 80px;
+}
+
+.btn_loja a {
+    background-color: var(--cor2);
+    color: white;
+    text-decoration: none;
+
+    border-radius: 6px;
+    padding: 12px 40px;
+
+    transition: .4s;
+}
+
+.btn_loja a:hover {
+    background-color: #3181a6;
+}
+
+/* Container 2 */
+
+.container2 {
+    text-align: center;
+    width: 100%;
+}
+
+.caixa1 {
+    display: inline-table;
+    width: 200px;
+    height: 300px;
+    background-color: var(--cor1);
+    margin: 15px;
+    background-image: url('../images/pexels-anastasiya-gepp-2065195.jpg');
+    background-size: cover;
+}
+
+.caixa2 {
+    width: 200px;
+    height: 300px;
+    background-color: var(--cor1);
+    display: inline-table;
+    margin: 15px;
+    background-image: url('../images/pexels-melvin-buezo-2529148.jpg');
+    background-size: cover;
+}
+
+.caixa3 {
+    width: 200px;
+    height: 300px;
+    background-color: var(--cor1);
+    display: inline-table;
+    margin: 15px;
+    background-image: url('../images/pexels-arsham-haghani-3387577.jpg');
+    background-size: cover;
+}
+
+.btn_container2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 260px;
+
+}
+
+.btn_container2 a {
+    text-decoration: none;
+    color: var(--cor2);
+    background-color: var(--cor1);
+    border-radius: 7px;
+    padding: 10px  14px;
+    transition: .3s;
+}
+
+.btn_container2 a:hover {
+    background-color: #121318;
+}
+
+/* Container 3 - Roupas */
+
+.container3 {
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+    background-color: #1b4659;
+}
+
+.roupas_container3 {
+
+    display: inline-table;
+    width: 200px;
+    height: 415px;
+    line-height: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.46);
+    background-color: #ffffff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.roupas_container3 img {
+    width: 100%;
+}
+
+.informacoes_container3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-align: left;
+    padding: 4px;
+}
+
+.preco_produto {
+    padding: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.btn_comprar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.btn_comprar a {
+    text-decoration: none;
+    padding: 10px 17px;
+    background-color: var(--cor2);
+    color: #f3f3f3;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+.btn_comprar a:hover {
+    background-color: #19698d;
+    color: #f3f3f3;
+}
+
+.titulo_container3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 10px 5px 20px 30px;
+    text-align: left;
+    font-size: 48px;
+}
+
+/* Loja */
+
+.titulo_loja {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #121318;
+    padding: 40px;
+    font-size: 48px;
+}
+
+.container4 {
+    line-height: 20px;
+    background-color: #1b4659;
+    text-align: center;
+}
+
+.produtos_container4 {
+    width: 200px;
+    height: 100%;
+    display: inline-table;
+    line-height: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.46);
+    background-color: #ffffff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container4 img {
+    width: 100%;
+}
+
+/* Barra de Pesquisa */
+
+.barra_pesquisa {
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 12px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder {
+    color: #989898;
+    font-weight: 'Montserrat', sans-serif;
+}
+
+.div_busca {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.div_busca img {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    background-color: #1e1f29;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 3px;
+    transition: .3s;
+}
+
+.div_busca img:hover {
+    background-color: #1e1a1a;
+}
+
+/* Resultado Busca */
+
+.busca_feita {
+    margin: 0px 10px 10px 15px;
+    display: inline-block;
+}
+
+.resultado_busca {
+    display: inline-table;
+    width: 200px;
+    height: 40px;
+    background-color: black
+}
+
+.resultado_busca:hover {
+    background-color: #0b0f14;
+}
+
+.saida_de_dados {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 11px;
+}
+
+/* Carrinho de Compras */
+
+.ativar_menu {
+    width: 30px;
+    height: 30px;
+    background-color: #249ed6;
+    transition: .4s;
+}
+.ativar_menu:hover > .menu_compras {
+    width: 600px;
+    height: 200px;
+    background-color: #000000;
+}
+/* Login do Site */
+
+.container_login {
+    width: 350px;
+    height: 450px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.login_input {
+    width: 200px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    transition: .3s;
+}
+
+.login_input:hover {
+    border-bottom: 1px solid rgb(0, 138, 202);
+}
+
+#gmail {
+    margin-bottom: 40px;
+}
+
+#senha {
+    margin-bottom: 10px;
+}
+
+.container_bloco {
+    margin: auto;
+}
+
+.btn_login {
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.btn_login a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor1);
+    padding: 10px 50px;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+.btn_login a:hover {
+    background-color: #000000;
+    padding: 10px 80px;
+}
+
+.recuperar_senha {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+.recuperar_senha a {
+    color: #989898;
+    text-decoration: none;
+}
+
+.recuperar_senha a:hover {
+    color: #4a4a4a;
+    text-decoration: underline;
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+}
+
+.saida_erro_gmail {
+    height: 20px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-size: 14px;
+}
+
+.saida_erro_senha {
+    height: 20px;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-size: 14px;
+}
+
+/* Footer do SIte */
+
+footer {
+    background-color: var(--cor1);
+}
+
+.btn_footer {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 40px 60px 60px 60px;
+}
+
+.btn_footer a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn_footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+.frase1_footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 30px 10px 30px 40px;
+}
+
+.imagens_footer {
+    padding: 10px 10px 0px 40px;
+}
+
+.imagens_footer img {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
